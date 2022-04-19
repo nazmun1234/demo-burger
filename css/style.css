@@ -1,0 +1,137 @@
+/* Google Fonts  */
+/* Bebasneue regular  */
+@import url("https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap");
+/* font-family: 'Bebas Neue', cursive; */
+/* Montserrat  */
+@import url("https://fonts.googleapis.com/css2?family=Montserrat&display=swap");
+/* font-family: 'Montserrat', sans-serif; */
+/* Alfaslpbone regular  */
+@import url("https://fonts.googleapis.com/css2?family=Alfa+Slab+One&display=swap");
+/* font-family: 'Alfa Slab One', cursive; */
+
+/* Global css  */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+.container {
+  width: 90%;
+  margin: auto;
+}
+header {
+  width: 100%;
+  float: left;
+  background: url(../img/hero-bg.png) no-repeat center;
+  background-size: cover;
+}
+body{
+  
+}
+/* Main Header Part  */
+.main-header {
+  -
+  top: 10px;
+  width: 100%;
+  float: left;
+  padding-top: 20px;
+}
+.logo-part {
+  width: 50%;
+  float: left;
+  margin-top: 19px;
+}
+.logo-part img {
+}
+.menu-part {
+  width: 50%;
+  float: left;
+  color: #42200B;
+  font-family: 'Montserrat', sans-serif;
+}
+.delivery-part {text-align: end;}
+.delivery-part img {margin-right: 15px;}
+.delivery-part span {
+    font-size: 21px;
+    font-weight: 600;
+}
+.menu {
+}
+.menu ul {
+    text-align: end;
+    margin-top: 22px;
+}
+.menu li {
+    list-style: none;
+    display: inline-block;
+}
+.menu a {
+    text-decoration: none;
+    margin-left: 35px;
+    letter-spacing: 1px;
+    font-size: 17px;
+    font-weight: 500;
+    color: #42200B;
+}
+.hero-part{
+    width: 100%;
+    float: left;
+}
+.hero-written-part{
+    width: 40%;
+    float: left;
+    padding-top: 181px;
+    color: #42200B;
+}
+.dotted{
+  font-family: 'Bebas Neue', cursive;
+  font-size: 21px;
+  font-weight: 300;
+  border: 2px dashed;
+  display: inline-block;
+  padding: 5px 14px;
+}
+.heading{
+  font-family: 'Alfa Slab One', cursive;
+  font-size: 94px;
+  letter-spacing: 7px;
+  text-shadow: 3px 3px white;
+}
+.sub-heading{
+  font-family: 'Alfa Slab One', cursive;
+  font-size: 38px;
+  font-weight: 600;
+  letter-spacing: 2px;
+  text-shadow: 2px 3px white;
+}
+.tag{
+
+display: inline-block;
+
+position: relative;
+
+right: -668px;
+
+bottom: -95px;
+}
+.price-bar{
+    position: relative;
+}
+.price{
+    backface-visibility: hidden;
+    position: relative;
+    top: -47px;
+    color: white;
+    font-size: 25px;
+    font-weight: 700;
+    display: inline-block;
+    left: -102px;
+    text-align: center;
+}
+.hero-img-part{
+    width: 60%;
+    float: left;
+}
+
+
+
